@@ -49,10 +49,6 @@
 @endsection
 
 @section('scripts')
-{{--    <script src="{{ asset('js/installer/wizard.js') }}"></script>--}}
-@endsection
-
-@section('scripts')
     <script type="text/javascript">
         function checkEnvironment(val) {
             var element=document.getElementById('environment_text_input');
@@ -70,3 +66,9 @@
         }
     </script>
 @endsection
+
+@section('scripts')
+{{--    <script src="{{ asset('js/installer/wizard.js') }}"></script>--}}
+@endsection
+
+
